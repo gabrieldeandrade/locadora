@@ -10,7 +10,7 @@ import java.util.List;
 
 @CrossOrigin
 @RestController
-@RequestMapping(path = "/api/v2")
+@RequestMapping(path = "/api/v1")
 public class FilmeController {
 
     private final FilmeService filmeService;
