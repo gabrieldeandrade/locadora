@@ -1,6 +1,6 @@
 # Locadora de Fitas VHS
 
-Devido à grande demanda causada por hipsters trintões saudosistas dos anos 90, um de nossos cliente decidiu abrir uma
+Devido à grande demanda causada por hipsters trintões saudosistas dos anos 90, um de nossos clientes decidiu abrir uma
 locadora de fitas de vídeo e nos encomendou um sistema para gerí-la.
 
 Este sistema consiste em um App para iPad (hipsters são fanboys da Apple) que está sendo desenvolvido na Califórnia
