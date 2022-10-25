@@ -3,7 +3,7 @@
 Devido à grande demanda causada por saudosistas dos anos 90, um de nossos clientes decidiu abrir uma
 locadora de fitas de vídeo e nos encomendou um sistema para gerí-la.
 
-Este sistema consiste em um App mobile e um serviço backend em Java usando Spring Boot 😍 que 
+Este sistema consiste em um App mobile e um serviço backend em Java utilizando Spring Boot 😍 que 
 implementa uma API RESTful responsável por fornecer os dados para o App.
 
 
