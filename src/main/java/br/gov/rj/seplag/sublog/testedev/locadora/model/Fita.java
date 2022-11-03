@@ -1,18 +1,18 @@
 package br.gov.rj.seplag.sublog.testedev.locadora.model;
 import com.fasterxml.jackson.annotation.JsonIgnore;
-import javax.persistence.*;
 
 
-@Entity
+
+//@Entity
 public class Fita {
 
-    @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+   // @Id
+  //  @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
     private String serial;
 
     // @JsonIgnore // Cuidado com as referências circulares!
-    @ManyToOne
+    //@ManyToOne
     private Filme filme;
 
     public Long getId() {

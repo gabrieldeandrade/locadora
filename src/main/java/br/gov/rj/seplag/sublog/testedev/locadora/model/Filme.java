@@ -2,22 +2,21 @@ package br.gov.rj.seplag.sublog.testedev.locadora.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
-import javax.persistence.*;
 import java.util.List;
 
-@Entity
+// @Entity
 public class Filme {
 
-    @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+   //  @Id
+   //  @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
     private String nome;
     private Integer ano;
     private Integer censura;
     private String diretor;
 
-    @JsonIgnore
-    @OneToMany(mappedBy = "filme", fetch = FetchType.LAZY)
+    // @JsonIgnore
+    // @OneToMany(mappedBy = "filme", fetch = FetchType.LAZY)
     private List<Fita> fitas;
 
     public Long getId() {
